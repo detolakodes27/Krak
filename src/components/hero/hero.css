@@ -1,0 +1,114 @@
+.hero{
+	width:100%;
+	height:88.4vh;
+	background: linear-gradient( 60deg, rgba(0,0,0,1.0), rgba(0,0,0,0)), url('../../assets/brk1.jpg');
+	background-repeat: no-repeat;
+	background-position:center;
+	background-size: cover;
+	display: flex;
+	flex-direction: column;
+}
+.links{
+	background-color: rgba(0, 0, 0, 0.4);
+}
+.hero-text{
+	display: flex;
+	justify-content: center;
+	align-items: flex-start;
+	flex-direction: column;
+	width:42%;
+	height:100%;
+}
+.hero-text > div{
+	margin-left:110px;
+}
+.hero-text-big{
+	font-size:40px;
+	font-weight: bolder;
+}
+
+.primarybtn{
+  background:#cd6133;
+  padding: 7px 20px;
+  border:none;
+  outline: none;
+  color:#fff;
+}
+
+.primarybtn a{
+  text-decoration: none;
+  color:#fff;
+}
+.secondarybtn{
+  background:#fff;
+  outline: none;
+  padding: 7px 20px;
+  color:#000;
+}
+
+.mobbtn{
+  background:none;
+  border: 1px solid #fff;
+  outline: none;
+  padding: 7px 15px;
+  color:#fff;
+}
+
+.secondarybtn a{
+  color:#000;
+  text-decoration: none;
+}
+
+.primarybtn a:hover, .secondarybtn a:hover{
+  color:unset;
+  text-decoration: none;
+}
+
+
+
+@media only  screen and (max-width: 1220px){
+	.hero-text{
+		width:50%;
+	}
+}
+
+@media only  screen and (max-width: 1025px){
+	.hero-text{
+		width:60%;
+	}
+}
+
+@media only screen and (max-width: 855px){
+	.hero-text{
+		width:65%;
+	}
+}
+
+@media only  screen and (max-width: 787px){
+	.hero-text{
+		width:100%;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+	.hero-text > div{
+		margin-left:0;
+	}
+}
+@media only  screen and (max-width: 768px){
+	.alinks{
+		display: none;
+	}
+}
+@media only  screen and (max-width: 410px){
+		.hero-text-big{
+			font-size:35px!important;
+			font-weight: bolder;
+		}
+}
+@media only  screen and (max-width: 360px){
+		.hero-text-big{
+			font-size:30px!important;
+			font-weight: bolder;
+		}
+}

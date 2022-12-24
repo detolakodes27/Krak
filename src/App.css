@@ -1,0 +1,64 @@
+/*body{
+  background:#eee!important;
+}*/
+a{
+  /*color:#000!important;*/
+  font-size:12px!important;
+}
+.def-color{
+  color:#d86842;
+}
+.primarybtn{
+  background:#d86842;
+  padding: 7px 20px;
+  border:none;
+  outline: none;
+  color:#000;
+}
+
+.primarybtn a{
+  text-decoration: none;
+  /*background: #01d923;*/
+  color:#fff;
+  background: saddlebrown;
+}
+.secondarybtn{
+  background:#fff;
+  border: 1px solid #d86842;
+  outline: none;
+  padding: 7px 20px;
+  color:#000;
+}
+
+.mobbtn{
+  background:none;
+  border: 1px solid #fff;
+  outline: none;
+  padding: 7px 15px;
+  color:#fff;
+}
+
+.secondarybtn a{
+  color:#000;
+  text-decoration: none;
+}
+
+.primarybtn a:hover, .secondarybtn a:hover{
+  color:unset;
+  text-decoration: none;
+}
+.primarybtn:hover{
+  border: 1px solid #d86842;
+}
+.secondarybtn:hover{
+  border: 1px solid #d86842;
+}
+
+.activemenu{
+  text-decoration: underline;
+  text-decoration-color:red;
+  text-decoration-style:20px;
+}
+.def-color{
+  color: red;
+}
